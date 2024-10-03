@@ -1,0 +1,256 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.roboto-flex-normal {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+body{
+  background-image: url(images/Home-Photoroom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: roboto-flex;
+  text-align: left;
+}
+
+header{
+  text-align: center;
+  font-family: poppins;
+  padding-top: 80px;
+  color: white;
+  font-size: 100%;
+}
+
+main{
+  font-family: "Roboto Flex", sans-serif;
+  color: white;
+  padding-top: 80px;
+  font-size: 350%;
+  text-align: left;
+  font-weight: normal;
+  padding-bottom: 20px;
+  margin-right: 60%;
+  margin-left: 5%;
+}
+
+.section1{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 150%;
+}
+.section2{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 75px;
+  margin-left: 5%;
+  font-size: 150%;
+}
+
+.boton{
+  padding: 10px 25px 10px 25px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.boton:hover{
+  background-color: lightblue;
+}
+
+@media (max-width: 480px) {  
+  body{
+    background-image: url(images/Home-Photoroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: roboto-flex;
+    text-align: center;
+  }
+  header{
+    text-align: center;
+    font-family: poppins;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    color: white;
+    font-size: 100%;
+  }
+  main{
+    font-family: "Roboto Flex", sans-serif;
+    color: white;
+    padding-top: 30px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .section1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+  }
+  .section2{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 75px;
+  }
+
+  .boton{
+    padding: 10px 25px 10px 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+  }
+
+  .boton:hover{
+    background-color: lightblue;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+}
