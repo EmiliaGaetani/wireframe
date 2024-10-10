@@ -7,12 +7,32 @@ body{
   display: grid;
   grid-template-columns: 50% 50%;
 }
-header{
+.header{
   font-family: "Roboto Flex", sans-serif;
   color: blue;
   text-align: center;
   padding-top: 20px;
   font-size: 150%;
+}
+header{
+  padding: 15px 0px 15px 0px;
+  background-color: #8b8c8d;
+  color: white;
+  font-family: poppins;
+  text-align: center;
+}
+.boton1{
+  padding: 5px 15px 5px 15px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.boton1:hover{
+  background-color: lightblue;
 }
 main{
   
@@ -69,16 +89,18 @@ section{
   padding-bottom: 40px;
 }
 footer{
-  background-color: white;
-  color: blue;
-  padding: 1.5% 0% 1.5% 0%;
-  margin-top: 100px;
+  background-color: #424242;
+  color: white;
+  padding: 1% 0% 1% 0%;
+  margin-top: 170px;
+  position: sticky;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 
 
-@media (max-width: 480px){
+@media (max-width: 768px){
   body{
     background-color: #dddddd;
     text-align: center;
@@ -88,7 +110,7 @@ footer{
     grid-template-columns: repeat(1,1fr)
     
   }
-  header{
+  .header{
     font-family: "Roboto Flex", sans-serif;
     color: blue;
     text-align: center;
