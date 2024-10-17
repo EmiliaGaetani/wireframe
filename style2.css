@@ -86,18 +86,27 @@ section{
   font-family: "Roboto Flex", sans-serif;
   color: blue;
   font-size: 150%;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+  padding-top: 20px;
 }
 footer{
   background-color: #424242;
   color: white;
-  padding: 1% 0% 1% 0%;
-  margin-top: 170px;
+  padding: 0.5% 0% 0.5% 0%;
+  margin-top: 50px;
   position: sticky;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-
+.footer{
+  background-color: #424242;
+  color: white;
+  padding: 0.5% 0% 0.5% 0%;
+  margin-top: 200px;
+  position: sticky;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
 
 
 @media (max-width: 768px){
